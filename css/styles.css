@@ -1,0 +1,158 @@
+/*     
+Fonts:
+
+font-family: 'Raleway', sans-serif;
+
+font-family: 'Roboto', sans-serif; */
+:root {
+  --white-color: #fff;
+  --almost-white-color: #f5f4fa;
+  --black-color: #000;
+  --almost-black-color: #212121;
+  --dark-color: #2f303a;
+  --blue-color: #2196f3;
+  --grey-color: #757575;
+  --grey-transparent-color: rgba(100%, 100%, 100%, 60%);
+}
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+.list {
+  list-style: none;
+}
+.logo {
+  font-family: "Raleway", sans-serif;
+  color: var(--blue-color);
+  text-decoration: none;
+}
+.logo-header {
+  color: var(--black-color);
+}
+.logo-footer {
+  color: var(--white-color);
+}
+.header {
+  background-color: var(--white-color);
+}
+.footer {
+  background-color: var(--dark-color);
+}
+.link {
+  text-decoration: none;
+}
+.nav .link {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  color: var(--almost-black-color);
+}
+.nav .link:visited {
+  color: var(--almost-black-color);
+}
+.nav .link:hover,
+.nav .link:focus {
+  color: var(--blue-color);
+}
+.contact-links {
+  color: var(--grey-color);
+  text-decoration: none;
+}
+.contact-links:hover,
+.contact-links:focus {
+  color: var(--blue-color);
+}
+.footer {
+  text-decoration: none;
+  line-height: 1.71;
+}
+.footer-adress-map {
+  color: var(--white-color);
+  text-decoration: none;
+}
+.footer-mail,
+.footer-tel {
+  color: var(--grey-transparent-color);
+  text-decoration: none;
+}
+
+.hero-main {
+  text-align: center;
+  background-color: var(--dark-color);
+  line-height: 1.36;
+}
+.hero-title {
+  font-weight: 900;
+  text-transform: uppercase;
+  text-align: center;
+  color: var(--white-color);
+}
+.hero-button {
+  color: var(--white-color);
+  background-color: var(--blue-color);
+  font-weight: 700;
+  cursor: pointer;
+}
+.hero-subtext-title {
+  font-weight: 700;
+  color: var(--almost-black-color);
+}
+.hero-subtext {
+  color: var(--grey-color);
+  line-height: 1.71;
+}
+
+.what-we-do {
+  text-align: center;
+}
+.what-we-do-title {
+  font-weight: 700;
+  color: var(--almost-black-color);
+}
+
+.team {
+  background-color: var(--almost-white-color);
+  text-align: center;
+}
+.team-title {
+  font-weight: 700;
+  color: var(--almost-black-color);
+}
+.team-name {
+  font-weight: 500;
+  color: var(--almost-black-color);
+  text-align: center;
+}
+.team-position {
+  color: var(--grey-color);
+  text-align: center;
+}
+.filters {
+  text-align: center;
+}
+.filters-button:hover {
+  color: var(--white-color);
+  background-color: var(--blue-color);
+  line-height: 1.63;
+  font-weight: 500;
+}
+.filters-button {
+  color: var(--black-color);
+  background-color: var(--almost-white-color);
+  line-height: 1.63;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.gallery-title {
+  font-weight: 500;
+  color: var(--almost-black-color);
+  line-height: 2;
+}
+.gallery-description {
+  color: var(--grey-color);
+  line-height: 1.88;
+}
+.gallery-title,
+.gallery-description {
+  text-align: left;
+}
