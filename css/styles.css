@@ -154,17 +154,16 @@ body {
   margin-top: 10px;
 }
 
-/* .what-we-do {
-  text-align: center;
-} */
+.what-we-do-content {
+  padding: 94px 0px;
+}
 .what-we-do-flex {
   display: flex;
   justify-content: space-between;
   gap: 30px;
   margin: 0;
   padding: 0;
-  padding-top: 50px;
-  padding-bottom: 94px;
+  margin-top: 50px;
 }
 .what-we-do-title {
   text-align: center;
@@ -178,14 +177,16 @@ body {
   display: block;
 }
 
+.team-content {
+  padding: 94px 0px;
+}
 .team-flex {
   display: flex;
   justify-content: space-between;
   gap: 30px;
-  margin: 0 auto;
+  margin: 0;
   margin-top: 50px;
   padding: 0;
-  padding-bottom: 94px;
 }
 .team-card {
   background-color: var(--white-color);
@@ -202,8 +203,7 @@ body {
   color: var(--almost-black-color);
   font-size: 36px;
   letter-spacing: calc(0.03 * 36px);
-  padding-top: 94px;
-  margin-top: 0;
+  margin: 0;
 }
 .team-name {
   font-weight: 500;
@@ -317,7 +317,7 @@ body {
   padding: 0;
   gap: 3px;
   font-style: normal;
-  padding-top: 20px;
+  margin-top: 20px;
 }
 .footer {
   text-decoration: none;
